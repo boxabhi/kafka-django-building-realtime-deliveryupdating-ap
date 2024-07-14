@@ -1,0 +1,4 @@
+Django>=4.0,<5.0
+confluent-kafka==2.5.0
+
+AIzaSyC9V9cKd0wmd6xavCSCFTQwuoXIJyoN5o4
