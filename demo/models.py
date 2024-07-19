@@ -9,3 +9,11 @@ class LocationUpdate(models.Model):
 
     def __str__(self):
         return f"Lat: {self.latitude}, Lon: {self.longitude} at {self.timestamp}"
+    
+
+class Post(models.Model):
+    title = models.CharField(max_length=100)
+    likes = models.IntegerField(default=0)
+
+    def __str__(self):
+        return self.title

@@ -20,6 +20,7 @@ from demo.views import *
 urlpatterns = [
     path('', index , name="index"),
     path('data/', latest_location, name='latest_location'),
+    path('like/<int:post_id>/', like_post, name='like_post'),
     path('admin/', admin.site.urls),
  
 ]
